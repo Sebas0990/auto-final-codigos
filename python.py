@@ -7,8 +7,8 @@ from openai import OpenAI
 # === CONFIGURACIÓN ===
 PORT = "COM4"  # Ajusta tu puerto
 BAUD = 9600
-THINGSPEAK_API_KEY = "57ZRJ6EBXJRBM9NE"
-OPENAI_API_KEY = "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"
+THINGSPEAK_API_KEY = "llave"
+OPENAI_API_KEY = "llave"
 
 # Inicializar cliente de OpenAI
 client = OpenAI(api_key=OPENAI_API_KEY)
@@ -71,3 +71,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
